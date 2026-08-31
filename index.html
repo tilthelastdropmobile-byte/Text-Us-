@@ -3,38 +3,92 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Text Til The Last Drop</title>
+  <title>Til The Last Drop | Text Us</title>
+
   <style>
     body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f7f7f7;
       font-family: Arial, sans-serif;
       text-align: center;
-      padding: 60px 20px;
     }
 
-```
-a {
-  display: inline-block;
-  padding: 18px 30px;
-  background: #000;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 10px;
-  font-size: 20px;
-  font-weight: bold;
-}
-```
+    .card {
+      background: white;
+      width: 90%;
+      max-width: 420px;
+      padding: 35px 20px 40px;
+      border-radius: 18px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    }
 
+    .logo {
+      width: 220px;
+      max-width: 80%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 25px;
+      margin: 5px 0 10px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.5;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 17px 25px;
+      background: #000;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 19px;
+      font-weight: bold;
+      width: 75%;
+    }
+
+    .phone {
+      margin-top: 20px;
+      font-size: 15px;
+    }
   </style>
+
 </head>
 
 <body>
 
-  <h1>Til The Last Drop-Mobile Bartending Service</h1>
-  <p>Have questions or want a quote?</p>
+  <div class="card">
 
-  <a href="sms:+17204468985?body=Hi%21%20I%27m%20interested%20in%20a%20bartending%20quote.%20My%20event%20date%20is%20___%20and%20my%20guest%20count%20is%20___.">
-    💬 Text Us for a Quote
-  </a>
+```
+<img src="logo.png" alt="Til The Last Drop Mobile Bartending Service" class="logo">
+
+<h1>Let's Get Your Party Started!</h1>
+
+<p>
+  Have questions or ready for a quote?
+  Text us and let's talk about your event.
+</p>
+
+<a class="button"
+   href="sms:+17204468985?body=Hi%21%20I%27m%20interested%20in%20a%20bartending%20quote.%20My%20event%20date%20is%20___%20and%20my%20guest%20count%20is%20___.">
+  💬 TEXT US FOR A QUOTE
+</a>
+
+<div class="phone">
+  720-446-8985
+</div>
+```
+
+  </div>
 
 </body>
 </html>
